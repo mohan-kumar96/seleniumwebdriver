@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-20T19:29:07 IST" name="Suite" finished-at="2026-02-20T19:29:12 IST" duration-ms="4695">
+    <groups>
+    </groups>
+    <test started-at="2026-02-20T19:29:07 IST" name="Test" finished-at="2026-02-20T19:29:12 IST" duration-ms="4695">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@293d0107]" started-at="2026-02-20T19:29:07 IST" name="setup" finished-at="2026-02-20T19:29:10 IST" duration-ms="2466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@293d0107]" started-at="2026-02-20T19:29:10 IST" name="verifyLogin" data-provider="loginData" finished-at="2026-02-20T19:29:12 IST" duration-ms="1648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohanrobbyr1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wecome@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@293d0107]" started-at="2026-02-20T19:29:12 IST" name="tearDown" finished-at="2026-02-20T19:29:12 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
